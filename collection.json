@@ -1,0 +1,61 @@
+{
+  "collection": "2026.09.13",
+  "testedDsh": "0.1.5-rc.1",
+  "plugins": [
+    {
+      "id": "augmentor",
+      "name": "Augmentor",
+      "version": "0.1.32",
+      "preview": false,
+      "filename": "augmentor-0.1.32-dist.zip",
+      "sha256": "3b0508f2dffd5f7e67b0330655097dac4fa98f2036f2cad8b123bb1e4921917c",
+      "url": "https://github.com/ManoloRemiddi/augmentor-dsh-extension-plugin/releases/download/v0.1.32/augmentor-0.1.32-dist.zip",
+      "guide": "https://github.com/ManoloRemiddi/augmentor-dsh-extension-plugin#readme",
+      "source": "https://github.com/ManoloRemiddi/augmentor-dsh-extension-plugin/tree/v0.1.32"
+    },
+    {
+      "id": "metafolder",
+      "name": "Metafolder",
+      "version": "1.2.1",
+      "preview": false,
+      "filename": "dsh-metafolder-plugin-1.2.1.tgz",
+      "sha256": "5a87e0c3f48f730741c37d106da1cae00d34738c92b8d38f1b300a983ccb46ac",
+      "url": "https://github.com/ManoloRemiddi/DSH-Metafolder-Plugin/releases/download/v1.2.1/dsh-metafolder-plugin-1.2.1.tgz",
+      "guide": "https://github.com/ManoloRemiddi/DSH-Metafolder-Plugin#readme",
+      "source": "https://github.com/ManoloRemiddi/DSH-Metafolder-Plugin/tree/v1.2.1"
+    },
+    {
+      "id": "model-picker",
+      "name": "Model Picker Augmented",
+      "version": "1.1.2",
+      "preview": false,
+      "filename": "dsh-model-picker-augmented-1.1.2.tgz",
+      "sha256": "9a2c2e17c128da3565520b5f39cb85606823440ee0e1e4c2316f806fc58914fc",
+      "url": "https://github.com/ManoloRemiddi/dsh-model-picker-augmented/releases/download/v1.1.2/dsh-model-picker-augmented-1.1.2.tgz",
+      "guide": "https://github.com/ManoloRemiddi/dsh-model-picker-augmented#readme",
+      "source": "https://github.com/ManoloRemiddi/dsh-model-picker-augmented/tree/v1.1.2"
+    },
+    {
+      "id": "adaptive-reasoning",
+      "name": "Adaptive Reasoning",
+      "version": "0.2.0",
+      "preview": true,
+      "filename": "dsh-adaptive-reasoning-0.2.0.tgz",
+      "sha256": "a9ef73266b79d616117f65e84e07cd8c3f04b174ef123e542c5a14fd5f05cb49",
+      "url": "https://github.com/ManoloRemiddi/dsh-adaptive-reasoning/releases/download/v0.2.0/dsh-adaptive-reasoning-0.2.0.tgz",
+      "guide": "https://github.com/ManoloRemiddi/dsh-adaptive-reasoning#readme",
+      "source": "https://github.com/ManoloRemiddi/dsh-adaptive-reasoning/tree/v0.2.0"
+    },
+    {
+      "id": "prompt-library",
+      "name": "Prompt Library",
+      "version": "0.2.1",
+      "preview": true,
+      "filename": "dsh-prompt-library-0.2.1.tgz",
+      "sha256": "e49d0454c2f9791208a5f871244d2c2fb0645f7893bc6eb457893b2384bc13b3",
+      "url": "https://github.com/ManoloRemiddi/dsh-prompt-library/releases/download/v0.2.1/dsh-prompt-library-0.2.1.tgz",
+      "guide": "https://github.com/ManoloRemiddi/dsh-prompt-library#readme",
+      "source": "https://github.com/ManoloRemiddi/dsh-prompt-library/tree/v0.2.1"
+    }
+  ]
+}

@@ -7,6 +7,14 @@ Plugins by [Manolo Remiddi](https://github.com/ManoloRemiddi) for
 Choose a plugin below, download its release and follow its installation guide.
 Each plugin has its own repository, license, issues and version history.
 
+## Download the collection
+
+[Download all five packages as one ZIP](https://github.com/ManoloRemiddi/deepseek-harness-plugins/releases/download/collection-2026.09.13/augmentor-plugins-2026.09.13.zip)
+or [browse them on Augmentor Agent](https://augmentoragent.com/plugins.html).
+The collection includes two previews, original versioned packages, a setup guide
+and checksums. Nothing installs automatically; choose the plugins you need.
+[Collection installation guide](docs/COLLECTION-INSTALL.md).
+
 ## Choose a plugin
 
 | Plugin | What it adds | Release | Get started |
@@ -78,3 +86,10 @@ Watch an individual repository's **Releases** for new versions. This catalogue
 is updated when a release is published; it does not run a background updater.
 
 MIT © 2026 Manolo Remiddi. See each plugin's license for its code.
+
+## Build the collection
+
+`python3 scripts/build-collection.py` downloads the release assets pinned in
+`collection.json`, verifies their SHA-256 hashes, and builds the ZIP under
+`dist/`. Package contents are preserved byte for byte. Update the dated manifest
+and guide together when preparing another collection release.
