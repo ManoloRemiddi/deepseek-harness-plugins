@@ -9,6 +9,8 @@
 | Augmentor | Release 0.1.32 matched all 40 compared local extension, bridge, installer, shared and plugin files. Installed plugin runtime files matched the source. GitHub's default branch contains the compatibility changes. Existing release retained. |
 | Adaptive Reasoning | GitHub and the installed package had matching 0.2.0 runtime source. Added public setup documentation and the first downloadable preview package; reasoning policy unchanged. |
 
+| Prompt Library | GitHub held the older standalone 0.1.0; the installed 0.2.0 adapter depended on the private Augmentor app. Public 0.2.1 packages that editor with standalone SQLite storage and an optional existing-service connection. The running local 0.2.0 and its store were not replaced. |
+
 ## Checks performed
 
 - Metafolder: regenerated browser bundle, syntax/export smoke check, folder
@@ -22,6 +24,11 @@
 - Augmentor: existing published distribution downloaded and compared with the
   local checkout. No new browser automation or live-model test was run in this
   release audit; earlier compatibility evidence remains in its repository.
+- Prompt Library: five regression tests passed, including real SQLite storage,
+  concurrent revisions, request deduplication, no retry after a shared-service
+  disconnect, HTTP origin/action checks and the React editor using real storage.
+  A disposable DSH package install/composition/storage/removal also passed. Its
+  new standalone backend is a preview; native-browser end-to-end testing was not run.
 - New package contents reviewed; private session outputs, local deployment
   records, credentials and dependency trees are excluded.
 
