@@ -1,5 +1,5 @@
 {
-  "collection": "2026.09.13",
+  "collection": "2026.09.14",
   "testedDsh": "0.1.5-rc.1",
   "plugins": [
     {
@@ -56,6 +56,17 @@
       "url": "https://github.com/ManoloRemiddi/dsh-prompt-library/releases/download/v0.2.1/dsh-prompt-library-0.2.1.tgz",
       "guide": "https://github.com/ManoloRemiddi/dsh-prompt-library#readme",
       "source": "https://github.com/ManoloRemiddi/dsh-prompt-library/tree/v0.2.1"
+    },
+    {
+      "id": "steering",
+      "name": "Steering",
+      "version": "0.1.0",
+      "preview": false,
+      "filename": "dsh-steering-0.1.0.tgz",
+      "sha256": "7a844c83f4490cc9fb569668550ac4d3982c998c3fe0c53a0c973c4ab08dde8c",
+      "url": "https://github.com/ManoloRemiddi/dsh-steering/releases/download/v0.1.0/dsh-steering-0.1.0.tgz",
+      "guide": "https://github.com/ManoloRemiddi/dsh-steering#readme",
+      "source": "https://github.com/ManoloRemiddi/dsh-steering/tree/v0.1.0"
     }
   ]
 }

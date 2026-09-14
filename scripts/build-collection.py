@@ -29,7 +29,7 @@ assets['SHA256SUMS'] = ''.join(f'{hashlib.sha256(data).hexdigest()}  {name}\n' f
 archive = output / (prefix + '.zip')
 with zipfile.ZipFile(archive, 'w', compression=zipfile.ZIP_DEFLATED) as bundle:
     for name, data in sorted(assets.items()):
-        entry = zipfile.ZipInfo(prefix + '/' + name, date_time=(2026, 9, 13, 0, 0, 0))
+        entry = zipfile.ZipInfo(prefix + '/' + name, date_time=(*map(int, version.split('.')), 0, 0, 0))
         entry.compress_type = zipfile.ZIP_DEFLATED
         entry.external_attr = 0o100644 << 16
         bundle.writestr(entry, data)

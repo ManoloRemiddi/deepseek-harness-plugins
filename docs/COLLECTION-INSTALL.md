@@ -1,7 +1,7 @@
 <!-- Copyright © 2026 Manolo Remiddi · SPDX-License-Identifier: MIT -->
-# Augmentor plugin collection — 13 September 2026
+# Augmentor plugin collection — 14 September 2026
 
-Five individually installable packages for DeepSeek Harness. This archive is a
+Six individually installable packages for DeepSeek Harness. This archive is a
 convenient download, not an automatic installer. Choose only the plugins you want.
 Two packages are previews and need the setup considerations described below.
 The plugins were checked individually with DSH 0.1.5-rc.1; this collection does
@@ -60,6 +60,14 @@ dsh plugin --profile web add "$PWD/packages/dsh-adaptive-reasoning-0.2.0.tgz" --
 ```
 
 [One-time setup](https://github.com/ManoloRemiddi/dsh-adaptive-reasoning/blob/v0.2.0/docs/SETUP.md).
+
+**Steering 0.1.0:** applies a queued correction during model generation. Running tools finish before the correction is delivered. Augmentor already includes this behavior in its Linux preset; install globally only if you want it for other agents.
+
+```sh
+dsh plugin --profile web add "$PWD/packages/dsh-steering-0.1.0.tgz"
+```
+
+[Behavior and compatibility](https://github.com/ManoloRemiddi/dsh-steering#readme).
 
 After installing your chosen plugins, finish active tasks, restart your existing
 DSH process and reload the browser page. Open the complete local URL printed by

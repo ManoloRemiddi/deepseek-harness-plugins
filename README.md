@@ -9,7 +9,7 @@ Each plugin has its own repository, license, issues and version history.
 
 ## Download the collection
 
-[Download all five packages as one ZIP](https://github.com/ManoloRemiddi/deepseek-harness-plugins/releases/download/collection-2026.09.13/augmentor-plugins-2026.09.13.zip)
+[Download all six packages as one ZIP](https://github.com/ManoloRemiddi/deepseek-harness-plugins/releases/download/collection-2026.09.14/augmentor-plugins-2026.09.14.zip)
 or [browse them on Augmentor Agent](https://augmentoragent.com/plugins.html).
 The collection includes two previews, original versioned packages, a setup guide
 and checksums. Nothing installs automatically; choose the plugins you need.
@@ -24,6 +24,7 @@ and checksums. Nothing installs automatically; choose the plugins you need.
 | **[Augmentor](https://github.com/ManoloRemiddi/augmentor-dsh-extension-plugin)** | Chromium side panel and agent control of your real browser | **0.1.32** | [Download](https://github.com/ManoloRemiddi/augmentor-dsh-extension-plugin/releases/tag/v0.1.32) · [Guide](https://github.com/ManoloRemiddi/augmentor-dsh-extension-plugin#install) |
 | **[Adaptive Reasoning](https://github.com/ManoloRemiddi/dsh-adaptive-reasoning)** | Automatically chooses effort for each request without a classifier model or GPU keep-alive | **0.2.0 preview** — model-specific configuration required | [Download](https://github.com/ManoloRemiddi/dsh-adaptive-reasoning/releases/tag/v0.2.0) · [Setup](https://github.com/ManoloRemiddi/dsh-adaptive-reasoning/blob/main/docs/SETUP.md) |
 | **[Prompt Library](https://github.com/ManoloRemiddi/dsh-prompt-library)** | Save and edit reusable prompts, with standalone storage or an existing Augmentor service | **0.2.1 preview** | [Download](https://github.com/ManoloRemiddi/dsh-prompt-library/releases/tag/v0.2.1) · [Guide](https://github.com/ManoloRemiddi/dsh-prompt-library#readme) |
+| **[Steering](https://github.com/ManoloRemiddi/dsh-steering)** | Applies corrections during model output while preserving queued follow-ups and running tools | **0.1.0** | [Download](https://github.com/ManoloRemiddi/dsh-steering/releases/tag/v0.1.0) · [Guide](https://github.com/ManoloRemiddi/dsh-steering#readme) |
 
 These versions were checked against **DSH 0.1.5-rc.1**. They are community
 plugins, not official DeepSeek products. Other DSH versions may change plugin
